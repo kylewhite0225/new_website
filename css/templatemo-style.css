@@ -180,26 +180,31 @@ h1,h2,h3,h4,h5
 	}
 #home h1
     {
-        border: 2px solid #435c4f;
-        color: #435c4f;
+        border: 1.5px solid white;
+        color: white;
         display: inline-block;
         letter-spacing: 6px;
         padding: 25px 35px;
-        margin: 30px 0;
+        margin: 20px 0;
+        background-color: rgba(0,0,0,0.3);
     }
 #home h2
     {
-        padding-bottom: 10px;
+        color: #435c4f;
+        padding-bottom: 30px;
     }
 #home p
     {
         color: white;
         font-size: 16px;
         font-weight: bold;
+        background-color: rgba(0,0,0,0.3);
+        border: 1.5px solid white;
+        padding: 15px;
     }
 #home .btn
     {
-        background: transparent;
+        background-color: rgba(0,0,0,0.3);
         border: 2px solid #ffffff;
         color: #ffffff;
         font-size: 16px;
@@ -320,9 +325,17 @@ h1,h2,h3,h4,h5
         width: 100%;
         height: 100%;
         position: absolute;
-        padding-top: 60px;
+        padding-top: 15px;
         transition: all 0.4s ease-in-out;
     }
+
+#portfolio .portfolio-overlay .portfolio-text
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
 #portfolio .portfolio-thumb:hover .portfolio-overlay
     {
         cursor: pointer;
