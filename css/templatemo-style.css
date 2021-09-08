@@ -256,6 +256,7 @@ h1,h2,h3,h4,h5
         background: #ffffff;
         cursor: pointer;
     }
+
 #work .media .media-heading
     {
         font-weight: 600;
@@ -296,6 +297,11 @@ h1,h2,h3,h4,h5
         font-weight: bold;
         float: right;
     }
+
+#about #portrait
+{
+    padding-top: 250px;
+}
 /* end about */
 
 /* start portfolio */
@@ -367,8 +373,16 @@ h1,h2,h3,h4,h5
         height: 50px;
         line-height: 45px;
         text-align: center;
-        margin-right: 20px;
+        /* margin-right: 20px; */
+        transition: all 0.4s ease-in;
     }
+
+#contact .fa:hover
+    {
+        background: #ffffff;
+        cursor: pointer;
+    }
+
 #contact .form-control
     {
         background: transparent;
